@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div class="page frist" id="page1">
+		<img src="img/fristbg.png" class="bg">
+		<nav id="nav">
+			<div class="left">RESUME</div>
+			<ul class="right">
+				<a href="#page3"><li>contect</li></a>
+				<a href="#page2"><li>work</li></a>
+				<a href="#page1"><li class="active">home</li></a>
+				<div id="border"></div>
+			</ul>
+		</nav>
+		<h1>去取经吗？求带走！</h1>
+		<div class="monkey" id="monkey">
+			<img src="img/jingu.png" id="jingu">
+			<img src="img/hou.png" id="hou">
+		</div>
+		
+		<img class="cloud" src="img/cloud.png"></img>
+	</div>
+	<div class="page sec" id="page2">
+		<div class="secp secp1" id="secp1">
+			<div class="space"></div>
+			<h1>ABOUT ME</h1>
+			<div class="block">
+				<ul class="left">
+					<li class="s1">姓名: 康立博</li>
+					<li class="s2">学校: 西安邮电大学</li>
+					<li class="s3">求职意向: WEB前端开发工程师</li>
+				</ul>
+				
+				<ul class="right">
+					<li class="s4">出生日期: 1994年8月</li>
+					<li class="s5">毕业时间: 2017年7月</li>
+				</ul>
+				<img src="img/person.png">
+			</div>
+		</div>
+		<div class="secp secp2">
+			<div class="space"></div>
+			<h1>MY WORK</h1>
+			<div class="block">
+				<ul class="top" id="top">
+					<div id="topl"></div>
+					<li>
+						<h2>EXPERICE</h2>
+						<h3>项目经验</h3>
+						<div class="img">
+							<img src="img/experience pic.png">
+							<div class="outb"></div>
+						</div>
+
+					</li>
+					<li class="mid">
+						<h2>SKILL</h2>
+						<h3>专业技能</h3>
+						<div class="img">
+							<img src="img/rome pic.png">
+							<div class="outb"></div>
+						</div>
+					</li>
+					<li class="last">
+						<h2>ROME</h2>
+						<h3>获得胸章</h3>
+						<div class="img">
+							<img src="img/skill pic.png">
+							<div class="outb"></div>
+						</div>
+					</li>
+				</ul>
+				<div class="bottomBox">
+					<div class="bottom" id="bottom1">
+						<ul>
+							<li class="pf">
+								<h3>陕西省通信管理局固定资产管理系统</h3>
+								<h5>2015.09-2015.12</h5>
+								<p class="p"><strong>Description：</strong>
+									与陕西省通信管理局合作的内部员工使用的固定资产管理系统，用于其固定资产设 备的登记，调配，维修，借记，生成报表，日志等。该项目使用C#  ASP.NET WebApi技术，与 前台交互方式主要以JSON数据异步交互为主（Ajax），实现无刷新交互，减轻服务器的负担， 增强用户体验。使用Sql Server数据库，基于EF框架进行数据读写，减少对SQL脚本的依赖，专 注于业务逻辑。
+								</p>
+								<p class="p">
+									<strong>Responsibility：</strong>
+									服务器端实现及数据库设计
+								</p>
+							</li>
+							<li class="pf">
+								<h3>约贝工作室在线预约官方网站</h3>
+								<h5> 2015.07-2015.08</h5>
+								<p class="p">
+									<strong>Description：</strong>
+									该项目包括了其工作室介绍与更新，业务介绍与更新，在线预约工作等。采用B/S 结构，前端使用Jquery类库进行开发。大量使用Jquery动画导致页面效率比较低，在后期的升级 计划采用CSS3动画与Canvas以提高页面效率。正在二次设计开发中。
+								</p>
+								<p class="p">
+									<strong>Responsibility：</strong>
+									前端设计编码及后台搭建
+								</p>
+								<p class="p">
+									<strong>Address：</strong>
+									<a href="http://ac.northk.wang">http://ac.northk.wang</a>
+								</p>
+							</li>
+							<li class="pf">
+								<h3> 微信后台开发nodejs模块</h3>
+								<h5>2015.11-2015.12</h5>
+								<p class="p"><strong>Description：</strong>
+									基于nodejs express的用于微信后台开发的一个模块。封装了微信认证，获取 access_token，菜单设置，消息与事件推送的接受与响应，事件状态保持基于session的处理， 客服消息与图文消息的推送等等。已使用其开发了基于微信的游戏——谁是卧底。
+								</p>
+								<p class="p">
+									<strong>Responsibility：</strong>
+									模块设计与编码实现
+								</p>
+								<p class="p">
+									<strong>Address：</strong>
+									<a href="https://www.npmjs.com/package/wechat-node">https://www.npmjs.com/package/wechat-node</a>
+								</p>
+							</li>
+							<li class="pf">
+								<h3>西邮移动应用开发实验室教学平台系统</h3>
+								<h5>2015.12-今</h5>
+								<p class="p">
+									<strong>Description：</strong>
+									至今完成了前端页面60%的实现。该项目主要用于展示我实验室的公开课视频， 教学资料，用户评论，公开课预告，BBS等。视频与资料展示采用瀑布流布局，评论展示使用 Ajax获取后台数据，以增强用户体验，减少等待时间。样式使用Less编写，使用gulp的gulpless模块进行解析。正在开发过程中。
+								</p>
+								<p class="p">
+									<strong>Responsibility：</strong>
+									前端设计编码
+								</p>
+							</li>
+						</ul>
+					</div>
+					<div class="bottom" id="bottom2">
+						<ul>
+							<li>熟练掌握Html和Css，DIV+CSS布局，了解HTML5与CSS3新特性;</li>
+							<li>熟练掌握JavaScript,掌握Ajax、JSONP;</li>
+							<li>熟练使用Jquery进行开发;</li>
+							<li>了解Nodejs、Asp.net、PHP，了解MVC编程模式;</li>
+							<li>可以使用Nodejs进行微信后台开发;</li>
+							<li>熟练掌握C语言、C#语言，熟练常用数据结构和算法;</li>
+							<li>了解Sql Server、Mysql、mongoDB数据库的基本操作;</li>
+							<li>了解Photoshop、AI的基本操作;</li>
+							<li>了解Linux操作系统和计算机网络，了解基本网络编程</li>
+						</ul>
+					</div>
+					<div class="bottom" id="bottom3">
+						<ul>
+							<li>第六届蓝桥杯国赛三等奖</li>
+							<li>第六届蓝桥杯省赛一等奖</li>
+							<li>西邮2014届网页设计大赛二等奖</li>
+							<li>西邮2014届c语言程序设计二等奖</li>
+							<li>西安邮电大学移动应用开发实验 室Windows 开发小组负责人</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="page third" id="page3">
+		<img src="img/fristbg.png" class="bg">
+		<img class="cloud" src="img/cloud.png"></img>
+		<h1>GET IN TOUCH</h1>
+		<form>
+			<div class="left"><input type="text" name="names" placeholder="Your Name"></div>
+			<div class="left"><input type="text" name="email" placeholder="Your Email"></div>
+			<div class="left last"><input type="text" name="number" placeholder="Your Number"></div>
+			<div class="clear"><textarea name="mes" >Hi,I want to say...</textarea></div>
+			<input type="submit" class="right" id="submit" value="SEND MESSAGE">
+		</form>
+		<img id="bmonkey" src="img/bmonkey.png"></img>
+	</div>
+	<div class="page" id="page4">
+		<ul>
+			<li><img src="img/loc.png">Xian China</li>
+			<li><img src="img/mes.png">573737092@qq.com</li>
+			<li class="last"><img src="img/tel.png">15664653600</li>
+		</ul>
+	</div>
+
+</body>
+<!-- <script type="text/javascript" src="js/zepto.min.js"></script> -->
+<script type="text/javascript" src="js/index.js"></script>
+
+</html>
