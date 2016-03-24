@@ -1,0 +1,148 @@
+@media screen and (max-width: 768px) {
+  .page .bg {
+    display: none;
+  }
+  #page1 h1 {
+    font-size: 2rem;
+    margin-top: 6rem;
+    color: #000;
+    text-shadow: 0.2rem 0.2rem 0.2rem #666;
+    height: 5rem;
+    line-height: 5rem;
+  }
+  #page1 nav {
+    position: static;
+  }
+  #page1 nav div.left {
+    color: #000;
+  }
+  #page1 nav ul.right {
+    display: none;
+  }
+  #page1 #mycanvas {
+    width: 133px;
+    height: 333px;
+    margin-top: 8rem;
+  }
+  .sec {
+    height: 300%;
+  }
+  .sec .secp {
+    min-width: 100%;
+  }
+  .sec .secp h1 {
+    font-size: 2rem;
+  }
+  .sec .secp1 {
+    height: 18%;
+    /*li{
+				float: left;
+			}*/
+  }
+  .sec .secp1 .block {
+    margin-top: 2rem;
+  }
+  .sec .secp1 .block ul {
+    height: auto;
+    width: 65%;
+  }
+  .sec .secp1 .block ul.left li {
+    float: none;
+    margin-right: 0;
+    letter-spacing: 0rem;
+    margin-bottom: 0;
+    padding: 0 0.8rem;
+    font-size: 0.9rem;
+    line-height: 3rem;
+  }
+  .sec .secp1 .block ul.right {
+    display: none;
+  }
+  .sec .secp1 .block img {
+    width: 35%;
+    height: auto;
+    float: right;
+  }
+  .sec .secp2 {
+    height: 82%;
+  }
+  .sec .secp2 h1 {
+    height: 5rem;
+    line-height: 5rem;
+  }
+  .sec .secp2 .block {
+    height: 100%;
+  }
+  .sec .secp2 .block .bottomBox {
+    display: none;
+  }
+  .sec .secp2 .block .top {
+    /*overflow: visible;*/
+  }
+  .sec .secp2 .block .top li {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .sec .secp2 .block .top li .img {
+    /*width: 60%;*/
+    margin: 0 auto;
+  }
+  .sec .secp2 .block .top li .bottom {
+    height: 20rem;
+    overflow: scroll;
+    display: none;
+    margin-top: 3rem;
+  }
+  .sec .secp2 .block .top li #bottom1 {
+    display: block;
+  }
+  .sec .secp2 .block .top li #bottom1 h5 {
+    margin-right: 0;
+    float: left;
+    clear: both;
+  }
+  .sec .secp2 .block .top li #bottom2 li,
+  .sec .secp2 .block .top li #bottom3 li {
+    margin-top: 1rem;
+  }
+  .sec .secp2 .block .top #topl {
+    display: none;
+  }
+  #page3 h1 {
+    font-size: 2rem;
+    color: #000;
+    margin-top: 5rem;
+  }
+  #page3 form {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 80%;
+  }
+  #page3 form div {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #a3a3a3;
+  }
+  #page3 form div textarea {
+    width: 85%;
+  }
+  #page3 form #submit {
+    margin-top: 0;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 0.2rem;
+  }
+  #page4 {
+    height: auto;
+  }
+  #page4 ul li {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  #page4 ul li img {
+    height: 2rem;
+    margin-top: 1rem;
+  }
+}
