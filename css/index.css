@@ -516,3 +516,6 @@ body {
   /*background-color: #999;*/
   margin: 0 auto;
 }
+#css3Animate {
+  display: none;
+}

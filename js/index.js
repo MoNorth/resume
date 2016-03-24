@@ -73,7 +73,7 @@ var MonkeyAnimate = {
 		this.w3 = {};
 	},
 	isPhone : function(){
-		console.log(this.workBut);
+		// console.log(this.workBut);
 		if(!this.isMoblie && document.body.clientWidth <= 768)
 		{
 			this.isMoblie = true;

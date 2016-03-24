@@ -1,3 +1,19 @@
+var a = new function(){
+	var i = 0;
+	var bodyShow = function(){
+		document.getElementById('css3Animate').style.display = "none";
+		document.body.style.overflow = "visible";
+	}
+	this.add = function(){
+		i++;
+		if(i >= 4)
+			bodyShow();
+	}
+}
+
+
+
+
 var ImageBoard = function(src,w,h,x,y){
 	this.src = src;
 	this.w = w;
@@ -10,6 +26,7 @@ var ImageBoard = function(src,w,h,x,y){
 }
 ImageBoard.prototype.draw = function(ctx,x,y,canDraw)
 {
+	// console.log("draw " + x + "  " + y);
 	var xy;
 	if(!canDraw || !(xy = canDraw(x,y)))
 	{
@@ -21,6 +38,7 @@ ImageBoard.prototype.draw = function(ctx,x,y,canDraw)
 ImageBoard.prototype.init = function(ctx)
 {
 	this.load(function(){
+		a.add();
 		this.draw(ctx);
 	}.bind(this));
 };
