@@ -14,7 +14,8 @@ h5,
 strong,
 form,
 input,
-textarea {
+textarea,
+canvas {
   padding: 0;
   margin: 0;
   border: none;
@@ -49,6 +50,40 @@ body {
 }
 .right {
   float: right;
+}
+.frist {
+  /*.monkey{
+		width: 200px;
+		height: 500px;
+		
+		margin: 0 auto;
+		position: relative;
+		img{
+			display: block;
+			position: absolute;
+		}
+		#jingu{
+			left: 43.5px;
+			z-index: 999;
+			margin-top: 200px;
+			top : -180px;
+		}
+		#hou{
+			margin-top: 180px;
+			top : -130px;
+		}
+		.eyes{
+			position: absolute;
+			top : 128px;
+		}
+		#eyes1{
+			left: 63px;
+		}
+		#eyes2{
+			left: 134px;
+		}
+
+	}*/
 }
 .frist .cloud {
   bottom: 0;
@@ -124,27 +159,6 @@ body {
   font-size: 4rem;
   font-weight: 600;
   text-shadow: 0.5rem 0.5rem 0.5rem #666;
-}
-.frist .monkey {
-  width: 200px;
-  height: 500px;
-  /*background-color: #999;*/
-  margin: 0 auto;
-  position: relative;
-}
-.frist .monkey img {
-  display: block;
-  position: absolute;
-}
-.frist .monkey #jingu {
-  left: 43.5px;
-  z-index: 999;
-  margin-top: 200px;
-  top: -180px;
-}
-.frist .monkey #hou {
-  margin-top: 180px;
-  top: -130px;
 }
 .sec {
   background-color: #fff;
@@ -387,6 +401,7 @@ body {
   line-height: 2rem;
 }
 .third {
+  min-height: 640px;
   position: relative;
 }
 .third .cloud {
@@ -468,7 +483,7 @@ body {
   z-index: -1;
 }
 #page4 {
-  height: 30%;
+  height: 25%;
   background-color: #141414;
 }
 #page4 ul {
@@ -495,4 +510,9 @@ body {
   height: 1.4rem;
   margin: 3rem auto;
   margin-bottom: 0.8rem;
+}
+#mycanvas {
+  display: block;
+  /*background-color: #999;*/
+  margin: 0 auto;
 }
