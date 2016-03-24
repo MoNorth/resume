@@ -27,15 +27,24 @@
     top: 0;
     left: 0;
     background-color: #fff;
-    z-index: 999;
+    z-index: 888;
   }
-  #css3Animate img {
-    width: 30%;
-    display: block;
+  #css3Animate > div {
+    z-index: 999;
+    width: 40%;
+    height: 0.6rem;
+    background-color: red;
+    border-radius: 0.5rem;
     margin: 0 auto;
     margin-top: 50%;
     animation: benginAnimate 1s infinite;
     -webkit-animation: benginAnimate 1s infinite;
+  }
+  #css3Animate > div div {
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color: yellow;
+    width: 20%;
   }
   .page .bg {
     display: none;
