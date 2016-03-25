@@ -50,6 +50,7 @@
     display: none;
   }
   #page1 h1 {
+    font-weight: 600;
     font-size: 2rem;
     margin-top: 6rem;
     color: #000;
@@ -72,7 +73,12 @@
     margin-top: 8rem;
   }
   .sec {
-    height: 300%;
+    /*	&:after{
+			display:block;
+			content : "";
+			clear: both;
+		}*/
+    height: auto;
   }
   .sec .secp {
     min-width: 100%;
@@ -81,41 +87,53 @@
     font-size: 2rem;
   }
   .sec .secp1 {
-    height: 18%;
+    height: auto;
     /*li{
 				float: left;
 			}*/
   }
+  .sec .secp1 h1 {
+    height: 4rem;
+    line-height: 4rem;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+  }
   .sec .secp1 .block {
-    margin-top: 2rem;
+    /*margin-top: ;*/
+  }
+  .sec .secp1 .block:after {
+    display: block;
+    content: "";
+    clear: both;
   }
   .sec .secp1 .block ul {
     height: auto;
-    width: 65%;
+    width: 63%;
   }
   .sec .secp1 .block ul.left li {
-    float: none;
+    /*float: none;*/
+    height: 2.3rem;
     margin-right: 0;
     letter-spacing: 0rem;
-    margin-bottom: 0;
+    margin-bottom: 0.8rem;
     padding: 0 0.8rem;
     font-size: 0.9rem;
-    line-height: 3rem;
+    line-height: 2rem;
   }
   .sec .secp1 .block ul.right {
     display: none;
   }
   .sec .secp1 .block img {
-    width: 35%;
+    width: 34%;
     height: auto;
     float: right;
+    margin-right: 3%;
   }
   .sec .secp2 {
-    height: 82%;
+    height: auto;
   }
   .sec .secp2 h1 {
-    height: 5rem;
-    line-height: 5rem;
+    display: none;
   }
   .sec .secp2 .block {
     height: 100%;
@@ -126,19 +144,85 @@
   .sec .secp2 .block .top {
     /*overflow: visible;*/
   }
+  .sec .secp2 .block .top .topLinejiao {
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #fff;
+    border-right: 1px solid #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
+    margin: 0 auto;
+    clear: both;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: relative;
+    z-index: 1;
+    top: -0.3rem;
+    /*left: 0.1rem;*/
+    /*margin-top: 1rem;*/
+  }
+  .sec .secp2 .block .top .topLinejiaos {
+    border: none;
+    border-left: 1px solid #a0a0a0;
+    border-top: 1px solid #a0a0a0;
+    background-color: #b5ced1;
+  }
+  .sec .secp2 .block .top .topLines {
+    z-index: 9;
+  }
+  .sec .secp2 .block .top .topLine {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    top: -1rem;
+    display: block;
+    height: 1rem;
+    clear: both;
+    border-top: 1px solid #a0a0a0;
+    /*z-index: 9;*/
+  }
   .sec .secp2 .block .top li {
     width: 100%;
     margin-top: 3rem;
   }
+  .sec .secp2 .block .top li.mid .img .outbs {
+    background-color: #fff;
+  }
+  .sec .secp2 .block .top li.last .img .outbs {
+    background-color: #fff;
+  }
+  .sec .secp2 .block .top li h2 {
+    font-size: 1.7rem;
+  }
+  .sec .secp2 .block .top li h3 {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
   .sec .secp2 .block .top li .img {
+    /*width:50%;*/
     /*width: 60%;*/
+    width: 10rem;
+    height: 7.5rem;
     margin: 0 auto;
+  }
+  .sec .secp2 .block .top li .img .outb {
+    left: 4.5rem;
+    bottom: -0.6rem;
+    z-index: 9;
+  }
+  .sec .secp2 .block .top li .img .outbs {
+    border: none;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    /*background-color: #fff;*/
   }
   .sec .secp2 .block .top li .bottom {
     height: 20rem;
     overflow: scroll;
     display: none;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
   .sec .secp2 .block .top li #bottom1 {
     display: block;

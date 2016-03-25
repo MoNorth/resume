@@ -261,6 +261,10 @@ body {
   content: "";
   clear: both;
 }
+.sec .secp2 .block .top .topLine,
+.sec .secp2 .block .top .topLinejiao {
+  display: none;
+}
 .sec .secp2 .block .top #topl {
   position: absolute;
   top: 0;

@@ -123,6 +123,23 @@ var MonkeyAnimate = {
 		e = e || window.event;
 		this.fixedEyes(e.clientX,e.clientY);
 	},
+	workButClickchange : function(num)
+	{
+		var i = 1;
+		for(; i < 4; i++)
+		{
+			if(i === num)
+				continue;
+			MonkeyAnimate['bottom' + i].style.display = "none";
+			MonkeyAnimate['w' + i].getElementsByTagName('div')[1].className = "outb";
+			MonkeyAnimate['w' + i].nextElementSibling.className = "topLinejiao";
+			MonkeyAnimate['w' + i].nextElementSibling.nextElementSibling.className = "topLine";
+		}
+		MonkeyAnimate['bottom' + num].style.display = "block";
+		MonkeyAnimate['w' + num].getElementsByTagName('div')[1].className = "outb outbs";
+		MonkeyAnimate['w' + num].nextElementSibling.className = "topLinejiao topLinejiaos";
+		MonkeyAnimate['w' + num].nextElementSibling.nextElementSibling.className = "topLine topLines";
+	},
 	workButClick : function(){
 		if(!this.isMoblie)
 		{
@@ -144,19 +161,13 @@ var MonkeyAnimate = {
 
 		}else{
 			this.w1.onclick = function(){
-				MonkeyAnimate.bottom1.style.display = "block";
-				MonkeyAnimate.bottom2.style.display = "none";
-				MonkeyAnimate.bottom3.style.display = "none";
+				MonkeyAnimate.workButClickchange(1);
 			}
 			this.w2.onclick = function(){
-				MonkeyAnimate.bottom1.style.display = "none";
-				MonkeyAnimate.bottom2.style.display = "block";
-				MonkeyAnimate.bottom3.style.display = "none";
+				MonkeyAnimate.workButClickchange(2);
 			}
 			this.w3.onclick = function(){
-				MonkeyAnimate.bottom1.style.display = "none";
-				MonkeyAnimate.bottom2.style.display = "none";
-				MonkeyAnimate.bottom3.style.display = "block";
+				MonkeyAnimate.workButClickchange(3);
 			}
 		}
 		
